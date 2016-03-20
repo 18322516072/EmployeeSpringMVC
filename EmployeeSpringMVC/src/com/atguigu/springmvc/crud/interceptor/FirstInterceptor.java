@@ -21,6 +21,7 @@ public class FirstInterceptor implements HandlerInterceptor{
 			HttpServletResponse arg1, Object arg2, Exception arg3)
 			throws Exception {
 		System.out.println("afterCompletion");
+		System.out.println("sssssss");
 	}
 
 	 
@@ -28,6 +29,7 @@ public class FirstInterceptor implements HandlerInterceptor{
 	public void postHandle(HttpServletRequest arg0, HttpServletResponse arg1,
 			Object arg2, ModelAndView arg3) throws Exception {
 		System.out.println("postHandle");
+		System.out.println("aaaa");
 	}
 
 	 
@@ -35,6 +37,7 @@ public class FirstInterceptor implements HandlerInterceptor{
 	public boolean preHandle(HttpServletRequest arg0, HttpServletResponse arg1,
 			Object arg2) throws Exception {
 		System.out.println("preHandle");
+		System.out.println("1111111");
 		return true;
 	}
 
