@@ -13,6 +13,7 @@ public class hh {
 		for(int i=0;i<12;i++){
 			System.out.println("i"+i);
 			System.out.println("哈哈哈哈");
+			Sysout.out.println("嘿嘿");
 		}
 		System.out.println("111");
 	}
